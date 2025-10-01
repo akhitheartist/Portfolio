@@ -1,0 +1,163 @@
+body {
+            background: linear-gradient(#EACDCD,#DCAEAD,#CE8E8D,#C06E6D,#B34E4D);
+            background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      
+      #hp {
+        color:#B34E4D;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+      }
+      .centered-content {
+    text-align: center;
+}
+#profile-pic {
+  width: 300px;
+  height: 300px;
+}
+     h2 {color:#ffc5c4;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif }
+        p {
+  text-align: center;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+nav {
+    background-color: #CE8E8D;
+    padding: 15px;
+    font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+nav a {
+    color: #EACDCD; 
+    padding: 10px  20px;
+    text-decoration: none;
+    font-size: 20px; 
+    border-right: 2px solid #B34E4D; 
+}
+
+#an {
+    color: #2A6A7A;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.anime-page {
+    background: linear-gradient(#CAE6ED, #A8D6E1, #87C6D6, #63B5CA, #2A6A7A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.anime-page nav {
+    background-color: #63B5CA;
+    padding: 15px;
+    font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+.anime-page nav a {
+    color: #122E35;
+    padding: 10px  20px;
+    text-decoration: none;
+    font-size: 20px; 
+    border-right: 2px solid #2A6A7A;
+}
+
+
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #122E35;
+}
+
+.anime-poster {
+    width: 100%;
+    height: 300px;
+    object-fit: fill; 
+    border-radius: 10px;
+}
+
+
+
+#ar {
+     color:#9B41BE;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+}
+.art-page {
+    background: linear-gradient(#E3CAED,#D1A8E1,#B877D1,#AD63CA,#9B41BE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.art-page nav {
+    background-color: #7F359C;
+}
+
+.art-page nav a {
+    color: #E3CAED;
+    border-right: 2px solid #632A7A;
+}
+
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.art-poster {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.page-wrapper {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.ed {
+    color:#41BE77;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.info-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.edu-page {
+    background: linear-gradient(#CAEDD9,#A8E1C1,#77D19E,#63CA90,#41BE77);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.edu-page nav {
+    background-color:#359C62;
+}
+
+.edu-page nav a {
+    color: #A8E1C1;
+    border-right: 2px solid #2A7A4C;
+}
+
+
